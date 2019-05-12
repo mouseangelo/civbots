@@ -34,10 +34,10 @@ USER_MAP = {
 
 // Wbhook URLs from Discord, uses certain hook based on partial game name
 HOOKS = [
-	// {
-	// 	name: "Partial gamename",
-	// 	hook: new DISCORD.Webhook("<<discordwebhookurl>>")
-	// },
+	{
+		name: "Hurricloud D",
+		hook: new DISCORD.Webhook("https://discordapp.com/api/webhooks/577241704701231125/q8UnSsSF1HpSyI_9UewokLot16PmeqDvfAMSFWsYphasaSHg1eApFXjahxHjA3t1kIDY")
+	},
 ]
 
 app.post('/civ/new_turn', CIV.handlePost)
